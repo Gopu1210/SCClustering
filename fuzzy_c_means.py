@@ -8,7 +8,7 @@ def eucledian_dist(a,b):
     return ans
 
 if __name__== '__main__':
-    df = pd.read_csv('/home/rahul/Desktop/SC/SPECTF_New.csv')
+    df = pd.read_csv('SPECTF_New.csv')
     df = df.sample(frac=1)
     #print df.head()
     df = df.as_matrix()
